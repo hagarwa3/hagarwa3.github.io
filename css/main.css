@@ -1,0 +1,59 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: background-color 0.5s ease;
+    background-color: #ff86a2;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.4em;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.0em;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 5vh;
+}
+
+name{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.content{
+    margin-top: 25vh;
+    margin-left: 15vw;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.social{
+    font-weight: 200;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+p{
+    font-size: 
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        background-color:#6dd8ff;
+    }
+    .content {
+        margin-right: 20vw;
+    }
+}
+@media (min-width: 750px) {
+    .content {
+        margin-right: 45vw;
+    }
+}
