@@ -26,15 +26,15 @@ name{
 .content2{
     font-size: 1.2em;
     position: relative;
-  margin-left: 10vh;
+  margin-left: 15vw;
   height: 80%;
   top: 50%;                         /* 3 */
    transform: translate(0, -50%)
 }
 .content{
     text-align: justify;
-    width: 580px;  
-       margin: 0;
+   /* width: 580px;  
+    margin: 0;*/
    position: absolute;               /* 2 */
    top: 50%;                         /* 3 */
    transform: translate(0, -50%)
