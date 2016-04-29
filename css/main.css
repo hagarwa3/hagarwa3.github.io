@@ -23,11 +23,23 @@ name{
     font-weight: 600;
 }
 
-.content{
-    margin-top: 23vh;
-    margin-left: 15vw;
+.content2{
+    position: relative;
+  margin-left: 15vh;
+  height: 60%;
+  top: 50%;                         /* 3 */
+   transform: translate(0, -50%)
 }
+.content{
+    text-align: justify;
+    text-justify: inter-word;
+     max-width: 580px;
 
+   margin: 0;
+   position: absolute;               /* 2 */
+   top: 50%;                         /* 3 */
+   transform: translate(0, -50%)
+}
 a{
     text-decoration: none;
     color: #ffffff;
